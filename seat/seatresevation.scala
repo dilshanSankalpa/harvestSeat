@@ -1,6 +1,5 @@
 import scala.util.control.Breaks._
 
-
 object  seatresevation {
 
 
@@ -77,6 +76,7 @@ object  seatresevation {
 
     def main(args:Array[String]){
         var flag1:Int;
+        initialsetup();
 
         breakable{
         while(True){
